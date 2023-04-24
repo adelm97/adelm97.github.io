@@ -1,0 +1,96 @@
+#top-ribbon {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#top-ribbon img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+#top-ribbon h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#top-ribbon a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#centered-text {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#centered-text h3 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+}
+
+#centered-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#centered-text button {
+    background-color: #0099ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#centered-text button:hover {
+    background-color: #0077cc;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.styleh2 {
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+}
+
+.styleh3 {
+    font-size: 8px;
+    color: #000000;
+    text-align: left;
+}
