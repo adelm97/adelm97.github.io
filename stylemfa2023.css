@@ -1,36 +1,65 @@
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-.ribbon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(128, 128, 128, 0.5);
-    backdrop-filter: blur(10px);
-    padding: 10px 20px;
-}
-
-.ribbon a {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.ribbon img {
-    height: 30px;
-}
-
 body {
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
 }
 
-.section {
-    height: 100vh;
-    color: rgb(0, 0, 0);
+
+.ribbon {
+    width: 100%;
+    background-color: rgb(139, 139, 139);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+
 }
 
-.intro video {}
+.ribbon img {
+    height: 40px;
+    width: 60px;
+
+}
+
+.row {
+
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35%;
+    padding-right: 35%;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.row a {
+    text-decoration: none;
+    color: black;
+}
+
+.row h1 {
+    font-size: 17px;
+
+}
+
+.intro {
+    position: relative;
+}
+
+.intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.intro h2 {
+    position: absolute;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+    left: 37.5%;
+    top: 47.5%;
+}
