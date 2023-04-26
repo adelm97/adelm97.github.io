@@ -9,6 +9,8 @@ body {
     width: 100%;
     background-color: rgb(139, 139, 139);
     height: 60px;
+    padding-left: 1%;
+    padding-right: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +29,7 @@ body {
 
     justify-content: space-between;
     align-items: center;
+    height: 60px;
     padding-left: 35%;
     padding-right: 35%;
     box-sizing: border-box;
@@ -47,12 +50,20 @@ body {
 
 .rowpage {
     justify-content: space-between;
+    align-items: center;
+    height: 60px;
     padding-left: 10%;
+    padding-right: 10%;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid black;
 
+}
+
+.rowpage img {
+    height: 60px;
+    width: 60px;
 }
 
 .rowpage a {
@@ -121,4 +132,18 @@ body {
     text-align: center;
     font-size: 1.2rem;
     padding: 0 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px;
 }
