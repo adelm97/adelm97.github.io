@@ -6,6 +6,10 @@ body {
 
 
 .ribbon {
+    /* position: -webkit-sticky; */
+    position: fixed;
+    z-index: 100;
+    top: 0;
     width: 100%;
     background-color: rgb(139, 139, 139);
     height: 60px;
@@ -16,17 +20,19 @@ body {
     align-items: center;
     box-sizing: border-box;
     backdrop-filter: blur(30px);
-
 }
 
 .ribbon img {
     height: 40px;
     width: 70px;
 
+
 }
 
 .row {
-
+    z-index: 90;
+    position: absolute;
+    top: 60px;
     justify-content: space-between;
     align-items: center;
     height: 60px;
