@@ -11,7 +11,7 @@ body {
     z-index: 100;
     top: 0;
     width: 100%;
-    background-color: rgb(139, 139, 139);
+    background-color: rgb(162, 162, 162);
     height: 60px;
     padding-left: 1%;
     padding-right: 1%;
@@ -55,6 +55,10 @@ body {
 }
 
 .rowpage {
+    z-index: 90;
+    position: absolute;
+    top: 60px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 60px;
@@ -64,12 +68,12 @@ body {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid black;
-
 }
 
+
 .rowpage img {
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
 }
 
 .rowpage a {
