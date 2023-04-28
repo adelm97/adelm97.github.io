@@ -19,7 +19,8 @@ body {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    backdrop-filter: blur(30px);
+    opacity: 95%;
+    backdrop-filter: blur(100px);
 }
 
 .ribbon img {
@@ -36,8 +37,8 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding-left: 35%;
-    padding-right: 35%;
+    padding-left: 30%;
+    padding-right: 30%;
     box-sizing: border-box;
     text-align: center;
     display: flex;
@@ -51,11 +52,12 @@ body {
 
 .row h1 {
     font-size: 17px;
+    word-spacing: normal;
 
 }
 
 .rowpage {
-    z-index: 90;
+    /* z-index: 90; */
     position: absolute;
     top: 60px;
     width: 100%;
@@ -93,7 +95,7 @@ body {
 .intro video {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 
 }
 
@@ -156,4 +158,46 @@ footer {
 
 .social-links a {
     margin: 0 10px;
+}
+
+.sectionmap {
+    position: absolute;
+    top: 120px;
+}
+
+/* .mapa {
+    align-items: center;
+    z-index: 90px;
+    top: 120px;
+} */
+
+.mapa video {
+    width: 100%;
+    height: 100%;
+    top: 120px;
+}
+
+.ARTABONE {
+    flex: 1;
+    margin: 20px;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.ARTABONE a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: #333;
+}
+
+.ARTABONE h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
