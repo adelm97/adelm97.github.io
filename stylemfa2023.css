@@ -179,11 +179,11 @@ footer {
     top: 120px;
 }
 
-/* .mapa {
+.mapa {
     align-items: center;
     z-index: 90px;
     top: 120px;
-} */
+}
 
 .mapa video {
     width: 100%;
@@ -202,16 +202,28 @@ footer {
 }
 
 .ARTABONE a {
-    display: flex;
+    display: contain;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
     text-decoration: none;
-    color: #333;
+}
+
+.ARTABONE img {
+    position: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .ARTABONE h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.ARTABONE p {
+    text-align: center;
+    font-size: 10px;
+    color: black;
 }
