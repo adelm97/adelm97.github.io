@@ -121,10 +121,10 @@ body {
 
 .feature {
     flex: 1;
-    margin: 10px;
+    margin: 30px;
     height: 30vh;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
@@ -223,12 +223,15 @@ footer {
     position: relative;
     object-fit: cover;
     height: 110%;
-    width: 170%;
+    width: 190%;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    opacity: 70%;
+
 }
+
 
 .overlay {
     position: absolute;
