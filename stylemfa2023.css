@@ -7,7 +7,6 @@ body {
 
 .ribbon {
     /* position: -webkit-sticky; */
-    position: fixed;
     z-index: 100;
     top: 0;
     width: 100%;
@@ -22,19 +21,29 @@ body {
     backdrop-filter: blur(100px);
 }
 
+.ribbon a {
+    text-decoration: none;
+    color: black;
+}
+
+.ribbon h1 {
+    font-size: 17px;
+    word-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
 .ribbon img {
     height: 45px;
-    width: 70px;
-
-
+    width: 70px
 }
 
 .row {
     padding-top: 80px;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 20%;
+    padding-right: 20%;
     box-sizing: border-box;
     text-align: center;
     display: flex;
@@ -175,6 +184,10 @@ footer {
     top: 120px;
 }
 
+.section h1 {
+    align-items: center;
+}
+
 .mapa {
     align-items: center;
     z-index: 90px;
@@ -189,10 +202,10 @@ footer {
 
 .ARTABONE {
     flex: 1;
-    margin: 20px;
+    margin: 60px;
     height: 80vh;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
@@ -207,12 +220,13 @@ footer {
 }
 
 .ARTABONE img {
-    position: contain;
-    height: 100%;
+    position: relative;
+    height: 80%;
     width: 100%;
 }
 
 .ARTABONE h2 {
+    position: relative;
     text-align: center;
     font-size: 40px;
     color: black;
