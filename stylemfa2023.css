@@ -93,13 +93,14 @@ body {
 }
 
 .intro {
-    padding-top: 30px;
+    padding-top: 95px;
+    height: 60vh;
 }
 
 .intro video {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 
 }
 
