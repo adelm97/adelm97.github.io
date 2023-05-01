@@ -101,6 +101,7 @@ body {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    outline: none;
 
 }
 
@@ -199,6 +200,7 @@ footer {
     width: 100%;
     height: 100%;
     top: 120px;
+    outline: none;
 }
 
 .ARTABONE {
@@ -264,6 +266,7 @@ footer {
     display: relative;
     width: 100%;
     object-fit: cover;
+    outline: none;
 }
 
 .overlayimage {
