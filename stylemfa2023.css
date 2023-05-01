@@ -246,7 +246,37 @@ footer {
     font-size: 60px;
 }
 
-.overlay p {
-    font-size: 40px;
+.ARFEATURE {
+    position: relative;
+    display: flex;
+    height: 70vh;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
 
+.ARFEATURE video {
+    display: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlayimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    object-position: center;
+}
+
+.overlayimage img {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
 }
