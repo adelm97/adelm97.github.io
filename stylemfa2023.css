@@ -152,6 +152,16 @@ body {
     padding: 0 20px;
 }
 
+.feature img {
+    position: relative;
+    object-fit: cover;
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    scale: 23%;
+}
+
 footer {
     background-color: #f0f0f0;
     padding: 20px 0;
