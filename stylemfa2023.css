@@ -124,7 +124,7 @@ body {
 .feature {
     flex: 1;
     margin: 30px;
-    height: 30vh;
+    height: 15vh;
     background-color: white;
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -155,11 +155,11 @@ body {
 .feature img {
     position: relative;
     object-fit: cover;
-    top: 75%;
-    left: 55%;
+    top: 60%;
+    left: 105%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    scale: 23%;
+    scale: 25%;
 }
 
 footer {
